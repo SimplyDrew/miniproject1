@@ -1,3 +1,61 @@
+/* do not move or erase... this is a fix for all site*/
+
+body {
+    background-image: url('../assets/Background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 999;
+  }
+  
+  .footer-left {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .footer-left img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-right {
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer-left,
+    .footer-right {
+      display: block;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .footer-left img {
+      margin: 0 5px;
+    }
+  }
+  
+
+
+/* Temporary */
+  
 .horizontal-scrollable > .row {
     overflow-x: auto;
     white-space: nowrap;
